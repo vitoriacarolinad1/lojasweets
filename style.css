@@ -1,0 +1,69 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Shrikhand&display=swap');
+
+body{
+    background-color: #FFCDEA;
+    padding: 1%;
+}
+
+.navbar{
+  background-color: #FB9AD1; 
+  padding: 6px;
+  width:100%;
+ 
+}
+
+nav::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #BC7FCD;
+
+}
+.links {
+    text-decoration: none;
+    color: #BC7FCD;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 10px;
+}
+.titulo{
+    color: #BC7FCD;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    font-size: 50px;
+}
+.paragrafo{
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.sub__subtitulo{
+    text-align: center;
+}
+.strong{
+    color: #BC7FCD;
+    font-family: 'Montserrat', sans-serif;
+    color: #BC7FCD;
+}
+.container{
+    padding: 1%;
+}
+.aside{
+    display:flex;
+    justify-content:space-between;
+
+}
+.containers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.containers{
+    width: 100%;
+    height: auto;
+}
+.cabecalho{
+
+}
